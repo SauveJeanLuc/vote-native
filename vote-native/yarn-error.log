@@ -1,0 +1,54 @@
+Arguments: 
+  /home/sauve/.nvm/versions/node/v16.14.0/bin/node /home/sauve/.nvm/versions/node/v16.14.0/bin/yarnpkg install --offline
+
+PATH: 
+  /home/sauve/.nvm/versions/node/v16.14.0/bin:/home/sauve/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Invariant Violation: There should only be one folder in a package cache (got  in /home/sauve/.cache/yarn/v6/npm-import-meta-0.11.10-7332300e840161bda3e69a1d1d91a7d4bc16f182-integrity/node_modules)
+      at invariant (/home/sauve/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:2314:15)
+      at /home/sauve/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:60715:7
+      at Generator.next (<anonymous>)
+      at step (/home/sauve/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/sauve/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "vote-native",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~45.0.0",
+      "expo-status-bar": "~1.3.0",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-native": "0.68.2",
+      "react-native-web": "0.17.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
