@@ -1,3 +1,8 @@
 React Navigation
 
 use expo for installations
+npm install formik --save
+
+
+CARDS https://morioh.com/p/21224a74ec36
+SIMPLE CARD: https://morioh.com/p/21224a74ec36
